@@ -1,0 +1,193 @@
+@import url(./components/button.css);
+@import url(./components/combobox.css);
+@import url(./components/input.css);
+@import url(./components/table.css);
+@import url(./components/dialog-detail.css);
+@import url(./components/selectbox.css);
+@import url(./components/popup.css);
+/* @import url(./components/button1.css); */
+/* @import url(./components/combobox1.css); */
+/* @import url(./components/input1.css); */
+@import url(./components/radio.css);
+/* @import url(/views/employee.css); */
+/* layout */
+@import url(./layout/content.css);
+@import url(./layout/header.css);
+@import url(./layout/menu.css);
+
+/* icon */
+@import url(../assets/font/font-awesome-6-pro-main/font-awesome-6-pro-main/css/all.css);
+@import url(../assets/icofont/icofont.css);
+
+body {
+    margin: 0;
+    overflow: auto;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+* {
+    font-family: Huy;
+    font-size: 13px;
+}
+
+@font-face {
+    font-family: Huy;
+    src: url(../../src/assets/font/GoogleSans-Regular.otf);
+}
+
+.m-flex {
+    display: flex;
+}
+
+.m-col-gap-8 {
+    column-gap: 8px;
+}
+
+.required {
+    color: #ff0000;
+}
+
+.m-row+.m-row {
+    margin-top: 14px;
+}
+
+.flex-1 {
+    flex: 1
+}
+
+.required,
+.error-info {
+    color: #f00;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row+.form-row {
+    margin-top: 14px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.m-row+.m-row {
+    margin-top: 14px;
+}
+
+.m-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.m-row>.m-col {
+    padding: 0 6px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+@media only screen and (min-width: 46.25em) and (max-width: 768px) {
+    header {
+        width: 100%;
+    }
+
+    .input-search {
+        width: 100%;
+    }
+
+    .popup-container {
+        height: 20px;
+        width: 100%;
+    }
+}
+
+
+/* RESPONSIVE */
+/* máy tính bảng >=740 and < 1024 */
+/* ipad pro >= 834 and < 1112 */
+@media only screen and (min-width: 46.25em) and (max-width: 63.935em) {
+    /* @media only screen and (min-width: 740px) and (max-width: 1112) {  */
+    .content__table--main {
+        height: (100vh- 20vh);
+    }
+
+    .content__table {
+        max-height: 500px;
+    }
+
+    .text {
+        font-size: 13px;
+    }
+
+    .right--text {
+        margin-right: 57px;
+    }
+
+    #table__select {
+        width: 160px;
+    }
+    .popup-container {
+        position: absolute;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        min-width: 250px;
+        border-radius: 4px;
+    }
+    .table-wrapper {
+        height: 810px;
+    }
+}
+
+@media only screen and (min-width: 0em) and (max-width: 46.24em){
+    #menu{
+        display: none;
+    }
+    header{
+        width: 100%;
+    }
+    .header--bars{
+        display: block;
+    }
+    .content{
+        width: 100%;
+    }
+    #menu--mobile{  
+        position: absolute;    
+        width: 50%;
+        height: calc(100vh - 56px);
+        top: 56px;
+        right: 0;
+        left: 0;
+        z-index: 9999;
+    }
+    .header--employee-image {
+        width: 36px;
+        height: 36px;
+        background-color: #d9d9d9;
+        border-radius: 100%;
+        right: 0;
+        margin-right: 20px;
+    }
+    .header--employee-image{
+        
+    } 
+} 

@@ -1,0 +1,30 @@
+{
+  "employee": [
+    {
+      "id": 7,
+      "employeeCode": "NV6969",
+      "employeeName": "Huy",
+      "employeeEmail": "danchoi@gmail.com",
+      "employeePositionName": "Dân chơi",
+      "employeeDepartmentName": "Dân chơi",
+      "employeePhoneNumber": "0923602212",
+      "employeeAddress": "Hà Nội"
+    },
+    {
+      "id": 8,
+      "employeeCode": "NV6969",
+      "employeeName": "Huy",
+      "employeeEmail": "danchoi@gmail.com",
+      "employeePositionName": "Dân chơi",
+      "employeeDepartmentName": "Dân chơi",
+      "employeePhoneNumber": "0923602212",
+      "employeeAddress": "Hà Nội"
+    },
+    {
+      "employeeCode": "NV070",
+      "employeeName": "Test",
+      "employeeDepartmentName": "Phòng CNTT",
+      "id": 9
+    }
+  ]
+}

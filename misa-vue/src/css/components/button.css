@@ -1,0 +1,69 @@
+.btn {
+    height: 36px;
+    min-width: 80px;
+    border-radius: 4px;
+    border: unset;
+    cursor: pointer;
+    color: #fff;
+    padding: 0 16px; 
+    outline: unset;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    text-align: center;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.btn--default {
+    background-color: #50b83c !important;
+    color: #fff !important;
+}
+
+.btn--icon{
+    font-size: 16px;
+}
+
+.btn-square{
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px #E0E0E0 solid;
+}
+
+.btn-more{
+    background-color: #fff;
+    margin-left: 12px;
+}
+
+.btn-setting{
+    border: 1px #50B83C solid;
+    background-color: #F4FFF2;
+}
+
+.btn-filter{
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: #fff;
+}
+
+.popup__footer-button{
+    height: 36px;
+    padding: 0 16px;
+    min-width: 80px;
+    border: unset;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: unset;
+}
+
+.btn--default:hover, .btn--default:focus{
+    background-color: #57c841!important;
+}
+
+#btn-save{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}

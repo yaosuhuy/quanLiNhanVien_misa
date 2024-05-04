@@ -1,0 +1,26 @@
+#table__select{
+    width: 280px;
+    height: 36px;
+    border: 1px #E0E1E4 solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    /* -webkit-appearance: none; */
+
+}
+
+/* .table__select::after{
+
+    content: url(/assets/icon/Layer\ 2.svg);
+
+}
+ */
+
+#table--number-select{
+    width: 76px;
+    height: 36px;
+    border: 1px #E0e0e0 solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #fff;
+
+}
